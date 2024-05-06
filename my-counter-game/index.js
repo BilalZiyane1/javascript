@@ -18,3 +18,10 @@ btnreset.addEventListener("click", () =>{
   x=0
   number.textContent = x;
 })
+
+
+const min = 50
+const max = 100
+
+let randomnum = Math.trunc(Math.random()*(max-min))+min
+console.log(randomnum)

@@ -1,0 +1,16 @@
+body {
+  display: flex;
+  flex-direction: column;
+  font-size: 1em;
+  gap: 10px;
+}
+
+input[type="checkbox"] + label,
+input[type="radio"] + label {
+  margin-left: 5px;
+}
+
+#mysubmit {
+  align-self: center;
+  margin-top: 20px;
+}
